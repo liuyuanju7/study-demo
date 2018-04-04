@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56e74556-f9c7-42db-a0fd-f1ec5dfafc75" name="Default" comment="http  redis">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/demo/cache/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/note/Code_Specification" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/note/algorithm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/TestMain.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/demo/http/HttpDemo.java" afterPath="" />
+    <list default="true" id="56e74556-f9c7-42db-a0fd-f1ec5dfafc75" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/study-demo.iml" afterPath="$PROJECT_DIR$/study-demo.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/demo/http/httpClient/HttpClientDemo.java" afterPath="$PROJECT_DIR$/src/main/java/demo/http/httpclient/HttpClientDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/demo/http/httpClient/LoginSinaDemo.java" afterPath="$PROJECT_DIR$/src/main/java/demo/http/httpclient/LoginSinaDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/demo/redis/RedisDemo.java" afterPath="$PROJECT_DIR$/src/main/java/demo/cache/redis/RedisDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/demo/redis/redis_command" afterPath="$PROJECT_DIR$/src/main/java/demo/cache/redis/redis_command" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,19 +16,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HttpClientDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/demo/http/httpclient/HttpClientDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#9792#9807#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/demo/cache/package-info.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,11 +117,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Code_Specification" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Code_Specification" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/note/Code_Specification">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="710">
               <caret line="44" column="6" lean-forward="true" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10980">
+              <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -992,7 +976,7 @@
       <workItem from="1519906311159" duration="3769000" />
       <workItem from="1522153895804" duration="18491000" />
       <workItem from="1522372004619" duration="1675000" />
-      <workItem from="1522826252520" duration="656000" />
+      <workItem from="1522826252520" duration="763000" />
     </task>
     <task id="LOCAL-00001" summary="http  redis">
       <created>1513843554232</created>
@@ -1001,7 +985,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513843554232</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.Java 基础">
+      <created>1522829229210</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522829229210</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1037,7 +1028,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60235000" />
+    <option name="totallyTimeSpent" value="60342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -1050,7 +1041,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39265212" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39265212" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3188248" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1114,7 +1105,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="http  redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="http  redis" />
+    <MESSAGE value="1.Java 基础" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.Java 基础" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1170,14 +1162,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/http/httpclient/LoginSinaDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/cache/redis/RedisDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1650">
@@ -1577,6 +1561,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="710">
           <caret line="44" column="6" lean-forward="true" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10980">
+          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
           <folding />
         </state>
       </provider>

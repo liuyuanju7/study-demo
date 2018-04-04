@@ -1,6 +1,7 @@
-package demo.redis;
+package demo.cache.redis;
 
 import redis.clients.jedis.Jedis;
+import redis.clients.jedis.Transaction;
 
 import java.util.HashMap;
 import java.util.List;
@@ -47,9 +48,16 @@ public class RedisDemo {
         System.out.println("设置rmap的过期时间为60s : " + jedis.expire("rMap",60));
         // 查看某个key的剩余生存时间,单位【秒】.永久生存 -1  不存在的返回-2
         System.out.println("查看rmap的剩余生存时间："+jedis.ttl("rMap"));
-        //清空所有数据
+        //清空当前选择的数据库所有key
         System.out.println("清空所有数据 " + jedis.flushDB());
 
         System.out.println("清空后的key 为：" + jedis.keys("*"));
+
+        //事务
+        Transaction transaction = jedis.multi();
+        transaction.set("key1","value1");
+        transaction.set("key2","value2");
+        transaction.exec();
+        System.out.println(jedis.get("key1") + " " + jedis.get("key2"));
     }
 }

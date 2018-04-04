@@ -1,4 +1,4 @@
-package demo.http.httpClient;
+package demo.http.httpclient;
 
 import org.apache.http.*;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
@@ -70,7 +70,7 @@ public class HttpClientDemo {
                 .setScheme("http")
                 .setHost("www.google.com")
                 .setPath("/search")
-                .setParameter("q","httpClient")
+                .setParameter("q","httpclient")
                 .setParameter("btnG","Google search")
                 .setParameter("aq","f")
                 .setParameter("oq","")

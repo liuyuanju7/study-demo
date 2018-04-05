@@ -45,3 +45,31 @@
             protected     1         1       1
       default(frendly)    1         1                       (不写时  为此种情况)
               private     1
+
+13. 接口中方法 默认均为 只能为 public ，只能声明 public static final 的常量，两者习惯性不写，接口默认，
+    在接口中声明常量 是在其实现类 需要频繁使用某一个常量值时，可以声明在接口里
+    final ： 接口是高级的抽象，所以其中的域是 其实现类共享的，所以需要保证其 只读不可写的 性质
+    static ： Java中类 是可以同时实现多个接口的(，隔开)，当两个接口 拥有同一个变量名时，static 常量就可以，通过A.name B.name区分
+
+14.对象Clone , Object 内部的 clone方法为 protected 类型的，只能克隆对应对象自身类型的， 而且为浅克隆：只能克隆 基本类型的域
+    和 不可变类型的对象，一般对于要是用clone方法的对象，要实现Cloneable 接口，重写clone方法实现深克隆
+
+15. @link: java\demo\innerclass   //待进一步研究
+    普通内部类 可以用public等修饰符 ，可以使用外部类的 成员
+    局部内部类 不可以，只作用于局部，对外部而言是隐藏的，既可以访问外部类 还可以访问局部变量， 但局部变量必须声明为final
+    匿名内部类：只创建这个类的一个对象，就不必命名 ： 需要一个某个接口的实现类
+    静态内部类：不需要访问外部类，只为了隐藏，可以声明为static ,以便取消引用 : 同是计算数组中的最大最小值并返回
+
+16. 异常 Throwable ： Error ，Exception
+    Error： Java运行时系统的内部错误和资源耗尽错误，不应该抛出，除告知用户，并尽力使程序安全终止外 无能为力
+    Exception ： 由程序导致的异常属于RuntimeException（未检查异常），而程序本身没有问题而是像I/O错误，属于其他异常（已检查异常）
+
+    子类方法抛出的异常不能 高于父类方法中抛出的
+    自定义异常 ： 派生与Exception 或其子类，习惯上带有两个构造器 默认 和 带有详细信息参数的
+
+    建议独立使用 try/catch try/finally, finally 中的return 值 会覆盖 try中的 return值
+    带资源的 try 语句, 会自动关闭资源，不用担心处理 在finally语句中关闭资源可能出现的异常
+    try(Scanner in = new Scanner(new FileInputStream("/file")){
+        code ..
+
+    }
